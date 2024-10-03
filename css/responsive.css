@@ -18,6 +18,13 @@
         padding: 4rem 2rem;
     }
 
+    .contact .container-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 4rem 2rem;
+    }
+
     .futures .container-futures {
         display: flex;
         flex-direction: column-reverse;
@@ -27,14 +34,20 @@
 
     .trade .container-trade .container-text,
     .futures .container-futures .container-text,
-    .support .container-support .container-text {
+    .support .container-support .container-text,
+    .contact .container-contact .container-text {
         width: 100%;
     }
 
     .trade .container-trade .container-img,
     .futures .container-futures .container-img,
-    .support .container-support .container-img {
+    .support .container-support .container-img,
+    .contact .container-contact .container-img {
         width: 70%;
+    }
+
+    .contact .container-contact .form {
+        width: 100%;
     }
 } 
 
@@ -52,7 +65,8 @@
 
     .about,
     .futures .container-futures,
-    .support .container-support {
+    .support .container-support,
+    .contact .container-contact {
         padding: 4rem 2rem;
     }
 
